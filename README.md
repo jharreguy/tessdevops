@@ -6,6 +6,10 @@ En la carpeta backend y frontend corresponde al test 2
 
 Como se instala, deben primero instalar docker y docker compose
 
+desde una terminal escribimos
+
+git clonehttps://github.com/jharreguy/testdevops.git
+
 Una vez hecho eso dentro de la carpeta backend hacemos
 
 Docker-compose up –d
@@ -28,6 +32,14 @@ Asi que no lo pude hacer funcionar, en el archivo settings se debe poner el usua
 
 ademas debemos poner una SECRET KEY pero yo no super como configurarlo por que no debe ir vacio.
 
-con respecto al frontend, debemos ingresar a dicha carpeta 
+con respecto al frontend, debemos ingresar a dicha carpeta y alli tenemos el archivo docker-compose.yml
+
+el ejercicio solicitaba que frontend y backend esten en el mismo docker compose pero no lo hice asi
+
+entonces hacemos docker-compose up -d
+
+y nos levanta a aplicacion localhost:3000, pero no va a funcionar por que no falta el backend web
 
 En la carpeta nginx corresponde al test 3 
+
+
