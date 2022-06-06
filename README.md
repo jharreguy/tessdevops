@@ -30,7 +30,7 @@ See 'docker run --help'.
 
 Asi que no lo pude hacer funcionar, en el archivo settings se debe poner el usuario, clave y bases de datos, que debe coincidir con el docker-compose.yml
 
-ademas debemos poner una SECRET KEY pero yo no super como configurarlo por que no debe ir vacio.
+ademas debemos poner una SECRET KEY pero yo no supe como configurarlo por que no debe ir vacio.
 
 con respecto al frontend, debemos ingresar a dicha carpeta y alli tenemos el archivo docker-compose.yml
 
