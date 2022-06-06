@@ -42,4 +42,17 @@ y nos levanta a aplicacion localhost:3000, pero no va a funcionar por que no fal
 
 En la carpeta nginx corresponde al test 3 
 
+para utilizar tener un proxy de nginx lo unico que tenemos que es ni bien descargamos los archivos con git clone, ingresamos a la carpeta NGINX y corremos 
+
+el docker-compose up -d
+
+y alli vamos a tener la posibilidad que en un solo servidor, poder tener varios sitios web, en cada sitio apuntamos a la misma ip ejemplo compramos dos 
+
+dominios en namecheap entonces le ponemos la misma ip y dns, luego en el hosting le asignamos la ip publica, y el proxy de nginx se encarga de redirigir a 
+
+que sitio corresponde segun lo que haya tipieado el usuario, ademas la ventaja que tiene es que instala un certificado SSL gratis, y por ultimo si 
+
+modificamos el index.html impacta la modificacion en el sitio al momento.
+
+
 
