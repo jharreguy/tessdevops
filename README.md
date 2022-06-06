@@ -8,7 +8,7 @@ Como se instala, deben primero instalar docker y docker compose
 
 desde una terminal escribimos
 
-git clonehttps://github.com/jharreguy/testdevops.git
+git clone https://github.com/jharreguy/testdevops.git
 
 Una vez hecho eso dentro de la carpeta backend hacemos
 
